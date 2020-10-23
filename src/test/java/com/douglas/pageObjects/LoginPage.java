@@ -41,12 +41,6 @@ public class LoginPage {
     @FindBy(xpath= "/html/body/responsive-design/main/div/div[3]/form/div/div/div[3]/div/button")
     WebElement closeModal;
 
-    @FindBy(xpath= "/html/body/responsive-design/main/div/div[3]/div[1]/div/div[1]/div/form/div[1]/label/span[1]")
-    WebElement emailEmpty;
-
-    @FindBy(xpath= "/html/body/responsive-design/main/div/div[3]/div[1]/div/div[1]/div/form/div[2]")
-    WebElement PasswordEmpty;
-
     public void clickAcceptCookies()
     {
         acceptCookies.click();
