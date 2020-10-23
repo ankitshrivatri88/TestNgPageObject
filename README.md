@@ -7,4 +7,4 @@ For current setup the chromedriver is already located in the project structure.
 
 
 # Run command:
-mvn test
+mvn install clean

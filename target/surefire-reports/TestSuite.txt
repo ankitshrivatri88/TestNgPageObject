@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.576 s <<< FAILURE! - in TestSuite
-ForgotPassword(com.douglas.testCases.TC03ForgotPassword)  Time elapsed: 10.447 s  <<< FAILURE!
-java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at com.douglas.testCases.TC03ForgotPassword.ForgotPassword(TC03ForgotPassword.java:25)
-
